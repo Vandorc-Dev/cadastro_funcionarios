@@ -1,0 +1,16 @@
+Criando uma API de cadstro de funcionários
+
+===Employee===
+
+-> EmployeeId (Id do funcionário)
+-> Name (Nome o funcionário)
+-> JobRole (Cargo do funcionário)
+-> Salary (Salário do funcionário)
+-> DateOfBirth (Data de nascimento)
+-> EmployeeRegistration (Código do funcionário)
+
+
+=====> Autenticação
+
+-> email/username
+-> password
