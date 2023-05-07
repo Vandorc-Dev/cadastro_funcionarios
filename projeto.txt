@@ -14,3 +14,16 @@ Criando uma API de cadstro de funcionários
 
 -> email/username
 -> password
+
+===>API (Backend) ===> PostgreSql, Azure functions, Azure ComsoDB, SWA + GitHub Actions
+
+Fronts:
+
+->Angular - Bootstrap, SweetAlert, SWA
+->Vue - Bootstrap, SweetAlert, SWA
+->React - Bootstrap, SweetAlert, SWA
+->Svelte - Bootstrap, SweetAlert, SWA
+
+
+Banco relacional: 1 * n, n * n 
+
