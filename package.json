@@ -2,16 +2,30 @@
   "name": "crud_funcionarios",
   "version": "1.0.0",
   "description": "Api de cadastro de funcionarios",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vandorc-Dev/cadastro_funcionarios.git"
+    "url": "https://github.com/Vandorc-Dev/cadastro_funcionarios.git",
+    "prepush": "npm run lint",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "azure_functions",
+    "express",
+    "github-actions",
+    "swa",
+    "serverless",
+    "sql",
+    "javascript"
+  ],
+  "author": "Vando Rocha",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.40.0",
@@ -21,6 +35,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
+    "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.18.2",
     "express-promise-router": "^4.1.1",
     "pg": "^8.10.0"
